@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.center {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.authform {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    border: 2px solid black;
+}
+
+.authform button{
+    margin-top: 20px;
+}
+#form-report{
+    height: 40px;
+    margin-top: 37px;
+    background: #ebd17c;
+    border: none;
+    width: 200px;
+}
+
+.authform input {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.authform input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    width: 200px;
+    background-color: #eef1ca;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.menu ul li {
+    padding: 25px;
+}
+
+.menu ul li:hover {
+    background-color: #eee595;
+    color: #000000;
+}
+
+.menu ul a {
+    color: #6e6e6e;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu ul li.activeItem {
+    background-color: #ebd17c;
+    color: #000000;
+}
+  
+.content {
+    margin-left: 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.table{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+
+.table tbody tr:nth-child(odd){
+	background: #fff;
+}
+
+.table tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
+
+.succes_message {
+    padding: 10px;
+    background-color: rgb(178, 233, 178);
+    color: rgb(0, 117, 0);
+}
+
+.hidden {
+    display: none;
+}
+
+/*###############################################################*/
+/*######################  Кнопки  ###############################*/
+/*###############################################################*/
+
+#popup_closer {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}
+
+.basebtn {
+    background-color: #eee595;
+    padding: 10px;
+    border: 2px solid #eee595;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.basebtn:hover {
+    background-color: #ebd17c;
+    border: 2px solid #ebd17c;
+}
+
+.scndbtn {
+    box-sizing: border-box;
+    border: 2px solid red;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 3px;
+    transition: 0.2s;
+    color: red;
+}
+
+.scndbtn:hover {
+    background-color: red;
+    color: white
+}
+
+.plusbtn {
+    width: 38px;
+    height: 38px;
+    background-image: url(img/maintance/baseplus.png);
+    background-size:contain;
+    cursor: pointer;
+}
+
+.plusbtn:hover {
+    background-image: url(img/maintance/hoverplus.png);
+}
+
+/*################################################################*/
+/*################################################################*/
+/*################################################################*/
+
+.flex-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+select {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 2%;
+}
+
+select:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.margleft {
+    margin-left: 10px;
+}
+
+.breaker {
+    height: 30px;
+    width: 100%;
+}
